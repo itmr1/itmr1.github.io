@@ -485,7 +485,7 @@ section,
 .section-title h2:before {
   content: "";
   position: absolute;
-  display: block;
+  display: block; 
   width: 160px;
   height: 1px;
   background: color-mix(in srgb, var(--default-color), transparent 60%);
@@ -536,11 +536,8 @@ section,
 }
 
 .hero:before {
-  content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
-  position: absolute;
-  inset: 0;
-  z-index: 2;
+  background: transparent !important;
+  pointer-events: none;
 }
 
 .hero .container {
