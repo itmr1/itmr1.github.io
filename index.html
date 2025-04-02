@@ -97,6 +97,7 @@
               <br><br>In connection with Responsible AI UK, I look to promote and develop transparent, interpretable and ethical AI systems, ranging from data management to computational efficiency.
               I am passionate about software at all levels, having a background in electronic engineering, and I am driven towards working on complex projects both personally and professionally with large impact.
               <br><br>My hobbies include gym, guitar, strategy games (Civ, EU4) and web development.
+              <br><br>Download my CV to see my experience and projects: <a href="assets/img/CV_Timur_Ismagilov.pdf" target="_blank" class="btn btn-primary">Download CV</a>
             </p>
           </div>
         </div>
@@ -203,6 +204,20 @@
         </div>
       </div>
     </section>
+
+    <script>
+      function toggleAbstract() {
+        var abstractEl = document.getElementById("abstract");
+        var btn = document.querySelector(".abstract-toggle-btn");
+        if (abstractEl.classList.contains("expanded")) {
+          abstractEl.classList.remove("expanded");
+          btn.textContent = "Expand Abstract";
+        } else {
+          abstractEl.classList.add("expanded");
+          btn.textContent = "Collapse Abstract";
+        }
+      }
+    </script>
 
 <!-- /Publications Section -->
 
