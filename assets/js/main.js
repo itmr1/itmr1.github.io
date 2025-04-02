@@ -89,6 +89,18 @@
   }
   window.addEventListener('load', aosInit);
 
+  function toggleAbstract() {
+    var abstractEl = document.getElementById("abstract");
+    var btn = document.querySelector(".abstract-toggle-btn");
+    if (abstractEl.classList.contains("expanded")) {
+      abstractEl.classList.remove("expanded");
+      btn.textContent = "Expand Abstract";
+    } else {
+      abstractEl.classList.add("expanded");
+      btn.textContent = "Collapse Abstract";
+    }
+  }
+
   /**
    * Init typed.js
    */
