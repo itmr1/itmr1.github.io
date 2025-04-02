@@ -1243,6 +1243,12 @@ section,
   font-size: 14px;
 }
 
+.btn-download {
+  padding: 6px 12px;      /* Reduced padding for a smaller button */
+  font-size: 0.85em;      /* Smaller text */
+  margin-top: 10px;       /* Adjusted margin if needed */
+}
+
 .portfolio-details .portfolio-info .btn-visit {
   padding: 8px 40px;
   background: var(--accent-color);
