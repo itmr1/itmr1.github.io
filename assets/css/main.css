@@ -1245,16 +1245,16 @@ section,
 
 .btn-download {
   font-size: 1rem;          /* Smaller text */
-  padding: 2px 6px;            /* Reduced padding for compactness */
+  padding: 3px;            /* Reduced padding for compactness */
   background-color: transparent; /* No background color */
-  color: #2d83b5;                 /* Dark text instead of blue */
-  border: none;                /* Remove any borders */
-  text-decoration: underline;  /* Underline to indicate it's clickable */
+  color: #5aaedf;                 /* Dark text instead of blue */
+  border: 1px solid #5aaedf;                /* box around */
+  text-decoration: none;  /* Underline to indicate it's clickable */
   cursor: pointer;
 }
 
 .btn-download:hover {
-  color: #555;                 /* Slight color change on hover */
+  color: #045479;                 /* Slight color change on hover */
 }
 
 .portfolio-details .portfolio-info .btn-visit {
